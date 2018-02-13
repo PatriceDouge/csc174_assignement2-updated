@@ -1,0 +1,359 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+a {
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #D3D3D3;
+}
+
+.btn {
+
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/* NAVIGATION */
+
+
+.navbar {
+
+    background: transparent; 
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+    text-transform: uppercase;
+    /* font-family: 'PT Sans Narrow', Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border: none;
+    padding: 0 10px 0 10px;
+}
+
+.navbar a {
+
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+
+.navbar a:hover {
+
+    opacity: 1;
+    background-color: transparent !important;
+
+}
+
+.navbar li {
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+/* .navbar .current {
+
+  opacity: 1;
+  background-color: transparent !important;
+
+
+} */
+
+/* HEADER */
+
+.header {
+
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../images/ny.jpg);
+    background-image: linear-gradient(90deg, rgba(49, 61, 65, 0.2), rgba(49, 61, 65, 0.2)), url(../images/ny.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1 {
+
+  line-height: 450px;
+  vertical-align: middle;
+  font-size: 70px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 600;
+
+}
+
+.header .contact-btn button {
+
+      padding: 0 30px;
+      color: #fff;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border-radius: 4px;
+      border: 1px solid #00FFFF;
+      cursor: pointer;
+      position: absolute;
+      top: 330px;
+      left: 650px;
+
+}
+
+.header .contact-btn button:hover {
+
+  background-color: #00FFFF;
+  border: 1px solid #FFFFFF;
+
+}
+
+@media(max-width:768px) {
+
+    .header {
+
+        padding: 30px;
+        height: 750px;
+    }
+
+    .header img {
+
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+
+    .header .contact-btn button {
+
+      padding: 0 30px;
+      position: absolute;
+      top: 130px;
+      left: 150px;
+    }
+
+    .header h1 {
+
+        font-size: 20px;
+    }
+
+    .header p {
+
+        font-size: 10px;
+    }
+}
+
+
+/* TEAM */
+
+.team {
+
+    padding: 20px 0 20px;
+    text-align: center;
+}
+
+.team h2,
+.team h4 {
+
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+
+.team p {
+
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+@media(max-width:768px) {
+
+    .team {
+
+        padding: 10px;
+    }
+}
+
+
+/* PATRICE HEADER */
+
+.patrice-header {
+
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../images/backMac.jpg);
+  background-image: linear-gradient(90deg, rgba(49, 61, 65, 0.2), rgba(49, 61, 65, 0.2)), url(../images/backMac.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.patrice-header h1 {
+
+  line-height: 250px;
+  vertical-align: middle;
+  font-size: 70px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 600;
+
+}
+
+/* PATRICE HEADER */
+
+.sarah-header {
+
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../images/ia.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ia.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.sarah-header h1 {
+
+  line-height: 250px;
+  vertical-align: middle;
+  font-size: 70px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 600;
+
+}
+
+/* ANDREW HEADER */
+
+.andrew-header {
+
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../images/designer.jpg);
+  background-image: linear-gradient(90deg, rgba(49, 61, 65, 0.2), rgba(49, 61, 65, 0.2)), url(../images/designer.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.andrew-header h1 {
+
+  line-height: 250px;
+  vertical-align: middle;
+  font-size: 70px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 600;
+
+}
+
+/* SKILLS */
+
+.about {
+
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.about h2,
+.about h4 {
+
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+
+.about p {
+
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.about li {
+
+  color: #737373;
+
+}
+
+
+.about i {
+
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #99ffff;
+    color: #fff;
+}
+
+
+@media(max-width:768px) {
+
+    .about {
+
+        padding: 30px;
+    }
+}
+
+.footer {
+
+  text-align: center;
+
+}
